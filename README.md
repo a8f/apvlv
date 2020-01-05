@@ -1,20 +1,12 @@
 # apvlv
 
-apvlv is a PDF/EPUB Viewer Under Linux/WIN32 and its behaviour like Vim.
+apvlv is a Vim-like PDF/EPUB Viewer for Linux/Windows.
 
-Apvlv is a open source software, was created by Alf and was hosted on [github](https://github.com/naihe2010/apvlv).
+apvlv is open source software created by Alf and hosted on [GitHub](https://github.com/naihe2010/apvlv). It is still growing today.
 
-Now, it is still growing.
+apvlv allows people to read their PDF/EPUB files using commands they are familiar with from Vim. For example, \<Ctrl-f\> for next page, \<Ctrl-b\> for previous page, 'k', 'j', 'h', and 'l' for scrolling a page up, down, left or right, and so on. It also supports prefixing commands with numbers to run the command that many times. For example, typing '50' and \<Ctrl-f\> will go forward 50 pages, typing '30' and \<Ctrl-b\> will go back 30 pages.
 
-Like Vim, Apvlv makes people reading their PDF/EPUB files just like using Vim.
-
-So, Apvlv bindings lots of Vim command and its behaviour is like Vim. For example, < Ctrl-f > to forward page, < Ctrl-b > to previous page, 'k','j','h','l' to scrolling a page up, down, left or right, and so on.
-
-And, Apvlv can understand that how many times you want to run the command.
-
-The only thing you need to do is typing the number before the command. For example, typing '50' and < Ctrl-f > will go forward 50 pages, typing '30' and < Ctrl-b > will go previous 30 pages.
-
-What's more import is apvlv can support view a directory as content of a pdf/epub document. Pressing 'k' or 'j' to move selected up or down, 'h' or 'l' to collapse or expand a dir, and press 't' will open the selected document in a new tab.
+apvlv also supports opening directories in the same way as PDF/EPUB files. When a directory is open, 'k' and 'j' navigate up and down, 'h' and 'l' collapse and expand directories, and 't' opens the selected document in a new tab.
 
 # Dependencies
 
